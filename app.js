@@ -19,7 +19,7 @@ const servers = {
 };
 
 // WebSocket signaling
-const signalingServerUrl = 'ws://localhost:8080';
+const signalingServerUrl = 'wss://simple-voice-chat-app.onrender.com';
 const signalingSocket = new WebSocket(signalingServerUrl);
 
 signalingSocket.onmessage = (message) => {
